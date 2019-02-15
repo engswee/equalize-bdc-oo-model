@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BC_BDC</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>OO Model of BDC processing - Singleton</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>ADD_FIELD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add field to BDC table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>ADD_SCREEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add screen to BDC table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>BDCDATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for BDCDATA</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>BDC_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CT - Call Transaction, BI - Batch Input</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>BI_GROUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Session name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>BI_HOLDDATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Session locked until specified date</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>BI_KEEP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicator to keep processed sessions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>BI_USER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Batch input user</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>CALL_TRANSACTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Execute call transaction for BDC</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>CLEAR_BDC_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear BDC data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>CREATE_BATCH_INPUT_SESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create Batch input session for BDC</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>CT_BDC_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BDC Processing Mode - A, E, N, P</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>CT_UPD_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BDC Update Mode - A, S, L</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>PROCESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process the BDC</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>S_FREE_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Free static singleton instance for GC</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>S_INSTANTIATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instantiate object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BDC</CLSNAME>
+     <CMPNAME>TCODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transaction Code</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
